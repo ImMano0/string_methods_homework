@@ -6,5 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    return s.capitalize()
+s = 'a variable of type str is given.'
+
+print(main(s))

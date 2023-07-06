@@ -6,5 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
+    return s.lower()
+s = 'A STR OF SEVERAL WARDS IS GIVEN.'
 
-    return
+print(main(s))

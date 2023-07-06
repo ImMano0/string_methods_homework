@@ -6,5 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    return s.upper()
+s = 'a str of several words is given.'
+
+print(main(s))

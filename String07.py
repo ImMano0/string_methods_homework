@@ -6,5 +6,7 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    return s.isalpha()
+s = 'variable'
+
+print(main(s))
