@@ -7,4 +7,6 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.index("x")
+s ="Mobile type xiomi"
+print(main(s))
